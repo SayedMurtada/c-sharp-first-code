@@ -1,0 +1,14 @@
+﻿1-create class to map table(model)
+2-create class to map into database (SADBContext)
+3-add some libs fro, nuguet packages
+    a- EntityframworkCore (depending on versions)
+    b-UseSqlServer (Microsoft.EntityFrameworkCore.SqlServer)
+    c-Microsoft.EntityFrameworkCore.Tools ==>migrations
+4-add connection string in appsetting file
+5-Register to SADBContext Class in startup class
+6- add dbset of class
+--Migration
+7- add-migration first
+8-update-database
+9- controller
+----
